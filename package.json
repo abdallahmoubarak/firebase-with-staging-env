@@ -6,7 +6,7 @@
     "serve": "firebase emulators:start",
     "deploy": "firebase deploy --only hosting",
     "dev": "next dev",
-    "build": "next build ",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
